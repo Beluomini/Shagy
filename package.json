@@ -1,0 +1,17 @@
+{
+  "name": "shagy",
+  "version": "1.0.0",
+  "description": "Shagy is a game to put your opponents in a complicated situation... Don't hesitate to SCREW up the player's game next to you.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Lucas Beluomini",
+  "license": "MIT License",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
